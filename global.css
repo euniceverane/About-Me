@@ -21,12 +21,14 @@ body {
   z-index: 100;
 }
 .logo {
-  font-size: 25px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  opacity: 0;
-  animation: slideRight 1s ease forwards;
+  display: block;
+  width: 120px;
+  height: 40px;
+  background-image: url('logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 }
 .navbar a {
   display: inline-block;
@@ -595,3 +597,4 @@ section {
   .contact-list li { font-size: 14px; }
   .contact-form .send { font-size: 13px; padding: 8px 20px; }
 }
+
