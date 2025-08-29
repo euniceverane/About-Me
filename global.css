@@ -21,7 +21,7 @@ body {
   z-index: 100;
 }
 .logo {
-  font-size: 25px;
+  font-size: 40px;
   color: #fff;
   text-decoration: none;
   font-weight: 600;
@@ -604,6 +604,7 @@ section {
   .contact-list li { font-size: 14px; }
   .contact-form .send { font-size: 13px; padding: 8px 20px; }
 }
+
 
 
 
