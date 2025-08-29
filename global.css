@@ -20,46 +20,7 @@ body {
   align-items: center;
   z-index: 100;
 }
-.logo {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  font-weight: 600;
-  color: #fff;
-  font-size: 25px;
-}
 
-.logo img {
-  height: 80px;
-  width: auto;
-  display: inline-block;
-}
-
-.logo span {
-  display: none;
-}
-
-@media (max-width: 992px) {
-  .logo img {
-    height: 65px;
-  }
-  .logo span {
-    display: inline-block;
-    font-size: 28px;
-    margin-left: 10px;
-  }
-}
-
-@media (max-width: 576px) {
-  .logo img {
-    display: none;
-  }
-  .logo span {
-    display: inline-block;
-    font-size: 26px;
-  }
-}
-}
 .navbar a {
   display: inline-block;
   font-size: 25px;
@@ -74,6 +35,12 @@ body {
 }
 .navbar a:hover {
   color: #0ef;
+}
+.logo img {
+  height: 40px;
+  width: auto;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
 }
 .home {
   position: relative;
@@ -627,6 +594,7 @@ section {
   .contact-list li { font-size: 14px; }
   .contact-form .send { font-size: 13px; padding: 8px 20px; }
 }
+
 
 
 
