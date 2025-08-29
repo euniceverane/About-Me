@@ -20,15 +20,11 @@ body {
   align-items: center;
   z-index: 100;
 }
-.logo {
-  display: block;
-  width: 120px;
+.logo img {
   height: 40px;
-  background-image: url('logo.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
+  width: auto;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
 }
 .navbar a {
   display: inline-block;
@@ -597,4 +593,5 @@ section {
   .contact-list li { font-size: 14px; }
   .contact-form .send { font-size: 13px; padding: 8px 20px; }
 }
+
 
